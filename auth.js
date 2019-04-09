@@ -129,6 +129,8 @@ const ensureAuthenticated = (req, res, next) => {
 
   console.log('clearly, they are not authenticated');
   // denied. redirect to login
+  
+  //10:42:40
   res.redirect('/login');
 }
 
